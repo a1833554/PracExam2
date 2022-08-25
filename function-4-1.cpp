@@ -26,11 +26,15 @@ for(int i = 0; i < num_rows; i++){
 
 }
 
-    int p[2] = {min,max};
+   int *arr; 
+   arr = new int[2];
+
+   arr[0] = min;
+   arr[1] = max;
 
 
 
-return p;
+return arr;
 
 
 
