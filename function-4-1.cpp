@@ -26,12 +26,11 @@ for(int i = 0; i < num_rows; i++){
 
 }
 
-    int *p = &min;
-     *(p+1) = max;
+    int p[2] = {min,max};
 
 
 
-std::cout<< *p<<" "<<  *(p+1)<<std::endl;
+return p;
 
 
 
