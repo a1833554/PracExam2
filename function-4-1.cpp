@@ -31,7 +31,7 @@ for(int i = 0; i < num_rows; i++){
 
 
 
-return p;
+std::cout<< *p<<" "<<  *(p+1)<<std::endl;
 
 
 
